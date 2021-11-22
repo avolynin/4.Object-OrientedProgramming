@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mallenom.Lessons.OOP.Shapes.Shape2D" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAAAAAAAIAAAAAAAAAQAAYAA=</HashCode>
+      <FileName>Shape2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mallenom.Lessons.OOP.Shapes.Rectangle2D" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQCAAAAEAAAAAEAAABAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Rectangle2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mallenom.Lessons.OOP.Shapes.Square2D" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAEAAAAAAAAAAAQAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Square2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mallenom.Lessons.OOP.Shapes.Circle2D" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Circle2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
