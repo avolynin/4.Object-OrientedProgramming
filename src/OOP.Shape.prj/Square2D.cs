@@ -5,9 +5,6 @@ namespace Mallenom.Lessons.OOP.Shapes
 	public class Square2D : Shape2D
 	{
 		private double _sideSize;
-		
-		public override double Area { get; private protected set; }
-		public override double Perimeter { get; private protected set; }
 
 		public double SideSize
 		{

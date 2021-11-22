@@ -6,10 +6,10 @@ namespace Mallenom.Lessons.OOP.Shapes
 {
 	public abstract class Shape2D : IMovable
 	{
-		private protected double X { get; set; }
-		private protected double Y { get; set; }
-		public abstract double Area { get; private protected set; }
-		public abstract double Perimeter { get; private protected set; }
+		public double X { get; private protected set; }
+		public double Y { get; private protected set; }
+		public virtual double Area { get; private protected set; }
+		public virtual double Perimeter { get; private protected set; }
 
 		public Shape2D(double startX, double startY)
 		{

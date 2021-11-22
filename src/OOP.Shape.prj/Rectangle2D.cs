@@ -40,9 +40,6 @@ namespace Mallenom.Lessons.OOP.Shapes
 			}
 		}
 
-		public override double Area { get; private protected set; }
-		public override double Perimeter { get; private protected set; }
-
 		public Rectangle2D(double x, double y, double height, double width) : base(x, y)
 		{
 			Width = width;

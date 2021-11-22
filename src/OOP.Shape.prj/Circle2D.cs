@@ -24,9 +24,6 @@ namespace Mallenom.Lessons.OOP.Shapes
 			}
 		}
 
-		public override double Area { get; private protected set; }
-		public override double Perimeter { get; private protected set; }
-
 		public Circle2D(double x, double y, double radius) : base(x, y)
 		{
 			Radius = radius;
