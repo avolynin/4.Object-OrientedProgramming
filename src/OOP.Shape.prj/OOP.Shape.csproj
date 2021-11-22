@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Mallenom.Lessons.OOP.Shapes</RootNamespace>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>D:\Users\Camputer\source\repos\OOP\src\Backup\OOP.Shape.prj\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <AssemblyName>OOP.Shapes</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\shared\Shared.csproj" />
+  </ItemGroup>
+</Project>

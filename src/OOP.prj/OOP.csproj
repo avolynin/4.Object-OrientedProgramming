@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Mallenom.Lessons.OOP</RootNamespace>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>D:\Users\Camputer\source\repos\OOP\src\Backup\OOP.prj\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OOP.Shape.prj\OOP.Shape.csproj" />
+  </ItemGroup>
+</Project>
