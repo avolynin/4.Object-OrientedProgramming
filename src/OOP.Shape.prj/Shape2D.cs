@@ -1,12 +1,10 @@
 ﻿using System;
 
-using Mallenom.Lessons.OOP.Shared;
-
 namespace Mallenom.Lessons.OOP.Shapes
 {
 	/// <summary>Базовый класс для двумерных фигур.</summary>
 	public abstract class Shape2D : IMovable
-	{
+	{		
 		/// <summary>Площадь фигуры.</summary>
 		private double _area;
 		/// <summary>Периметр фигуры.</summary>

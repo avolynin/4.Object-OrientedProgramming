@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mallenom.Lessons.OOP.Shared
+namespace Mallenom.Lessons.OOP.Shapes
 {
 	public interface IMovable
 	{
