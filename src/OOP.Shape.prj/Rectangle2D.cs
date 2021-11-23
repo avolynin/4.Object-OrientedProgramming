@@ -2,11 +2,15 @@
 
 namespace Mallenom.Lessons.OOP.Shapes
 {
+	/// <summary>Двумерный прямоугольник.</summary>
 	public class Rectangle2D : Shape2D
 	{
+		/// <summary>Высота прямоугольника.</summary>
 		private double _height;
+		/// <summary>Ширина прямоугольника.</summary>
 		private double _width;
 
+		/// <summary>Возвращает и устанавливает ширину прямоугольника.</summary>
 		public double Width 
 		{
 			get
@@ -23,6 +27,7 @@ namespace Mallenom.Lessons.OOP.Shapes
 				}
 			}
 		}
+		/// <summary>Возвращает и устанавливает высоту прямоугольника.</summary>
 		public double Height 
 		{ 
 			get
@@ -40,13 +45,21 @@ namespace Mallenom.Lessons.OOP.Shapes
 			}
 		}
 
+		/// <summary>Создает прямоугольник на указанных координатах с данной длиной и шириной.</summary>
+		/// <param name="x">Координата X верхнего левого угла прямоугольника.</param>
+		/// <param name="y">Координата Y верхнего левого угла прямоугольника.</param>
+		/// <param name="height">Высота прямоугольника.</param>
+		/// <param name="width">Ширина прямоугольника.</param>
 		public Rectangle2D(double x, double y, double height, double width) : base(x, y)
 		{
 			Width = width;
 			Height = height;
 		}
 
-		public Rectangle2D(double height, double width) : base(0, 0)
+		/// <summary>Создает прямоугольник на нулевых координатах (X = 0, Y = 0) с данной длиной и шириной.</summary>
+		/// <param name="height">Высота прямоугольника.</param>
+		/// <param name="width">Ширина прямоугольника.</param>
+		public Rectangle2D(double height, double width)
 		{
 			Width = width;
 			Height = height;

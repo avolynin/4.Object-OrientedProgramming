@@ -14,7 +14,7 @@ namespace Mallenom.Lessons.OOP
 			Shape2D square = new Square2D(25);
 
 			Shape2D[] shapes = new Shape2D[3] { circle, rectangle, square };
-
+			
 			rectangle.MoveTo(100, 100);
 			((Square2D)square).SideSize = 10;
 			circle.Radius = 5;
