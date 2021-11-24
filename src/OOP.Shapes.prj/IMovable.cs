@@ -2,8 +2,8 @@
 
 namespace Mallenom.Lessons.OOP.Shapes
 {
-	public interface IMovable
+	internal interface IMovable
 	{
-		void MoveTo(double x, double y);
+		void MoveTo(float x, float y);
 	}
 }

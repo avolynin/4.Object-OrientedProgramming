@@ -7,10 +7,10 @@ namespace Mallenom.Lessons.OOP.Shapes
 	public class Circle2D : Shape2D
 	{
 		/// <summary>Радиус круга.</summary>
-		private double _radius;
+		private float _radius;
 
 		/// <summary>Возвращает и устанавливает радиус круга.</summary>
-		public double Radius
+		public float Radius
 		{
 			get
 			{
@@ -21,8 +21,8 @@ namespace Mallenom.Lessons.OOP.Shapes
 				if(value >= 0)
 				{
 					_radius = value;
-					Area = Math.PI * Math.Pow(Radius, 2);
-					Perimeter = 2 * Math.PI * Radius;
+					Area = (float)(Math.PI * Math.Pow(Radius, 2));
+					Perimeter = (float)(2 * Math.PI * Radius);
 				}
 			}
 		}
@@ -31,14 +31,14 @@ namespace Mallenom.Lessons.OOP.Shapes
 		/// <param name="x">Координата X верхнего левого угла окружности.</param>
 		/// <param name="y">Координата Y верхнего левого угла окружности.</param>
 		/// <param name="radius">Радиус окружности.</param>
-		public Circle2D(double x, double y, double radius) : base(x, y)
+		public Circle2D(float x, float y, float radius) : base(x, y)
 		{
 			Radius = radius;
 		}
 
 		/// <summary>Создает круг на нулевых координатах (X = 0, Y = 0) с данным радиусом.</summary>
 		/// <param name="radius">Радиус окружности.</param>
-		public Circle2D(double radius)
+		public Circle2D(float radius)
 		{
 			Radius = radius;
 		}

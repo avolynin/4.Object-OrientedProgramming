@@ -6,18 +6,18 @@ namespace Mallenom.Lessons.OOP.Shapes
 	public abstract class Shape2D : IMovable
 	{		
 		/// <summary>Площадь фигуры.</summary>
-		private double _area;
+		private float _area;
 		/// <summary>Периметр фигуры.</summary>
-		private double _perimeter;
+		private float _perimeter;
 
 		/// <summary>Возвращает и устанавливает X координату.</summary>
-		public double X { get; private protected set; }
+		public float X { get; private protected set; }
 		/// <summary>Возвращает и устанавливает Y координату.</summary>
-		public double Y { get; private protected set; }
+		public float Y { get; private protected set; }
 		/// <summary>Возвращает и устанавливает площадь фигуры.</summary>
-		public virtual double Area { get; private protected set; }
+		public virtual float Area { get; private protected set; }
 		/// <summary>Возвращает и устанавливает периметр фигуры.</summary>
-		public virtual double Perimeter { get; private protected set; }
+		public virtual float Perimeter { get; private protected set; }
 
 		/// <summary>Базовый конструктор для создания фигур на нулевых координатах (X = 0, Y = 0).</summary>
 		public Shape2D() : this(0, 0)
@@ -25,7 +25,7 @@ namespace Mallenom.Lessons.OOP.Shapes
 
 		}
 		/// <summary>Базовый конструктор для создания фигур на указанных координатах.</summary>
-		public Shape2D(double x, double y)
+		public Shape2D(float x, float y)
 		{
 			MoveTo(x, y);
 		}
@@ -33,7 +33,7 @@ namespace Mallenom.Lessons.OOP.Shapes
 		/// <summary>Перемещает фигуру на указанные координаты.</summary>
 		/// <param name="x">Новая координата X верхнего левого угла фигуры.</param>
 		/// <param name="y">Новая координата Y верхнего левого угла фигуры.</param>
-		public void MoveTo(double x, double y)
+		public void MoveTo(float x, float y)
 		{
 			X = x;
 			Y = y;

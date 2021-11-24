@@ -6,10 +6,10 @@ namespace Mallenom.Lessons.OOP.Shapes
 	public class Square2D : Shape2D
 	{
 		/// <summary>Длина сторон квадрата.</summary>
-		private double _sideSize;
+		private float _sideSize;
 
 		/// <summary>Возвращает и устанавливает длину сторон квадрата.</summary>
-		public double SideSize
+		public float SideSize
 		{
 			get
 			{
@@ -20,7 +20,7 @@ namespace Mallenom.Lessons.OOP.Shapes
 				if(value >= 0)
 				{
 					_sideSize = value;
-					Area = Math.Pow(SideSize, 2);
+					Area = (float)Math.Pow(SideSize, 2);
 					Perimeter = 4 * SideSize;
 				}
 			}
@@ -28,7 +28,7 @@ namespace Mallenom.Lessons.OOP.Shapes
 
 		/// <summary>Создает квадрат на нулевых координатах (X = 0, Y = 0) с данной длиной сторон.</summary>
 		/// <param name="sideSize">Длина сторон квадрата.</param>
-		public Square2D(double sideSize)
+		public Square2D(float sideSize)
 		{
 			SideSize = sideSize;
 		}
@@ -36,7 +36,7 @@ namespace Mallenom.Lessons.OOP.Shapes
 		/// <param name="x">Координата X верхнего левого угла квадрата.</param>
 		/// <param name="y">Координата Y верхнего левого угла квадрата.</param>
 		/// <param name="sideSize">Длина сторон квадрата.</param>
-		public Square2D(double x, double y, double sideSize) : base(x, y)
+		public Square2D(float x, float y, float sideSize) : base(x, y)
 		{
 			SideSize = sideSize;
 		}
