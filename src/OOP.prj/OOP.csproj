@@ -10,5 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\OOP.Shapes.prj\OOP.Shapes.csproj" />
+    <ProjectReference Include="..\OOP.Vehicles\OOP.Vehicles.csproj" />
   </ItemGroup>
 </Project>

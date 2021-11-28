@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP.prj\OOP.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Shapes", "OOP.Shapes.prj\OOP.Shapes.csproj", "{59044866-8847-4B93-BBC2-A13DD6AD994A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Vehicles", "OOP.Vehicles\OOP.Vehicles.csproj", "{BF82856A-D952-4456-A07A-0D23ED35D86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Vehicles.Tests", "OOP.Vehicles.Tests\OOP.Vehicles.Tests.csproj", "{2637C67C-0C69-4C7F-A917-803250D150DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{59044866-8847-4B93-BBC2-A13DD6AD994A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59044866-8847-4B93-BBC2-A13DD6AD994A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59044866-8847-4B93-BBC2-A13DD6AD994A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF82856A-D952-4456-A07A-0D23ED35D86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF82856A-D952-4456-A07A-0D23ED35D86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF82856A-D952-4456-A07A-0D23ED35D86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF82856A-D952-4456-A07A-0D23ED35D86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2637C67C-0C69-4C7F-A917-803250D150DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2637C67C-0C69-4C7F-A917-803250D150DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2637C67C-0C69-4C7F-A917-803250D150DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2637C67C-0C69-4C7F-A917-803250D150DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
