@@ -10,6 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\OOP.Shapes.prj\OOP.Shapes.csproj" />
-    <ProjectReference Include="..\OOP.Vehicles\OOP.Vehicles.csproj" />
+    <ProjectReference Include="..\OOP.Vehicles.prj\OOP.Vehicles.csproj" />
   </ItemGroup>
 </Project>

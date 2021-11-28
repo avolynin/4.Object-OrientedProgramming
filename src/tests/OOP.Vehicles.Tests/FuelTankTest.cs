@@ -17,7 +17,7 @@ namespace OOP.Vehicles.Tests
 		public void SetUp()
 		{
 			wasCalled = false;
-			_fuelTank = new FuelTank();
+			_fuelTank = new FuelTank(100);
 			_fuelTank.NoFuel += delegate { wasCalled = true; };
 		}
 		[Test]
