@@ -4,12 +4,9 @@ namespace Mallenom.Lessons.OOP.Vehicles.TypeVehicles
 {
 	public class Bus : Vehicle
 	{
-		private float maxDistance = 150;
-
-		public Bus(FuelTank fuelTank)
+		public Bus(float maxSpeed, FuelTank fuelTank) : base(maxSpeed, fuelTank)
 		{
-			fuelTank.AverageFuelConsumption = fuelTank.MaxAmoutFuel / maxDistance;
-			createFuelTank(fuelTank);
+			fuelTank.MaxDistance = 150;
 		}
 	}
 }

@@ -21,14 +21,14 @@ namespace OOP.Vehicles.Tests
 			_fuelTank.NoFuel += delegate { wasCalled = true; };
 		}
 		[Test]
-		public void some2()
+		public void NoFuel_AmoutFuel0_Called()
 		{
 			_fuelTank.AmoutFuel = 0;
 
 			Assert.IsTrue(wasCalled);
 		}
 		[Test]
-		public void some1()
+		public void NoFuel_AmoutFuel1_NoCalled()
 		{
 			_fuelTank.AmoutFuel = 1;
 

@@ -10,6 +10,19 @@ namespace Mallenom.Lessons.OOP.Vehicles.Components
 		public event FuelTankHandler NoFuel;
 		public event FuelTankHandler InvalidTypeFuel;
 
+		private int _maxDistance;
+		internal int MaxDistance
+		{
+			get
+			{
+				return _maxDistance;
+			}
+			set
+			{
+				_maxDistance = value;
+				AverageFuelConsumption = MaxAmoutFuel / _maxDistance;
+			}
+		}
 		public float AverageFuelConsumption { get; set; }
 		public float MaxAmoutFuel { get; }
 		private float _amountFuel;
@@ -23,13 +36,13 @@ namespace Mallenom.Lessons.OOP.Vehicles.Components
 			}
 			set
 			{
-				if(value <= 0)
+				if(value <= 0.0f)
 				{
 					_amountFuel = 0;
 					_typeFuel = null;
 					NoFuel?.Invoke("Топливо отсутствует");
 				}
-				else if(value <= MaxAmoutFuel && value >= 0)
+				else if(value <= MaxAmoutFuel && value > 0)
 				{
 					_amountFuel = value;
 				}

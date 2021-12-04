@@ -7,9 +7,10 @@ namespace Mallenom.Lessons.OOP.Vehicles
 {
 	public class Vehicle : IMovable
 	{
-		private protected float _currentSpeed = 0;
-
+		private float _currentSpeed;
+		
 		public float MaxSpeed { get; set; }
+		
 
 		public FuelTank fuelTank;
 
@@ -23,11 +24,18 @@ namespace Mallenom.Lessons.OOP.Vehicles
 			}
 			set
 			{
-				if(value <= MaxSpeed && value >= 0) _currentSpeed = value;
+				if(value <= MaxSpeed && value >= 0)
+				{
+					_currentSpeed = value;
+				}
 			}
 		}
 
-		public void createFuelTank(FuelTank fuelTank) { this.fuelTank = fuelTank; }
+		public Vehicle(float maxSpeed, FuelTank fuelTank = null)
+		{
+			MaxSpeed = maxSpeed;
+			this.fuelTank = fuelTank;
+		}
 
 		public float Move(int hours)
 		{
